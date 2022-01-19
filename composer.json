@@ -1,6 +1,6 @@
 {
     "name": "customgento/module-remove-viewed-products-m2",
-    "description": "Magento 2 module, which completely removes the recently viewed products feature.",
+    "description": "Remove Viewed Products for Magento 2 removes the recently viewed products feature completely from Magento.",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": "OSL-3.0",

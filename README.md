@@ -1,5 +1,5 @@
-# CustomGento_RemoveViewedProducts
-Magento 2 module, which completely removes the recently viewed products feature.
+# Remove Viewed Products for Magento 2
+Remove Viewed Products for Magento 2 removes the recently viewed products feature completely from Magento. Theoretically, this is as easy as removing all recently viewed products blocks from the layout. However, even when all blocks are removed, Magento still adds cookies and entries to the local storage. This module also takes care that this data is not set at all.
 
 ## Description
 This extension removes the recently viewed products feature completely from Magento. Theoretically, this is as easy as removing all recently viewed products blocks from the layout. However, even when all blocks are removed, Magento still adds cookies and entries to the local storage named `recently_viewed_product` and `recently_viewed_product_previous`. This module also takes care that this data is not set at all, which helps with GDPR / cookie compliance.

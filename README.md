@@ -11,5 +11,8 @@ Remove Viewed Products for Magento 2 removes the recently viewed products featur
 ## Configuration
 There is no configuration.
 
+## License
+[OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
+
 ## Copyright
-&copy; 2020 CustomGento GmbH
+© 2020 - present CustomGento GmbH

@@ -8,6 +8,6 @@
         <plugin name="customgento_removeviewedproducts" type="CustomGento\RemoveViewedProducts\Plugin\RemoveViewedSectionNamePlugin" sortOrder="10"/>
     </type>
     <type name="Magento\Catalog\Block\Widget\RecentlyViewed">
-        <plugin name="customgento_removeviewedproducts" type="CustomGento\RemoveProductComparison\Plugin\RemoveViewedWidgetPlugin" sortOrder="10"/>
+        <plugin name="customgento_removeviewedproducts" type="CustomGento\RemoveViewedProducts\Plugin\RemoveViewedWidgetPlugin" sortOrder="10"/>
     </type>
 </config>

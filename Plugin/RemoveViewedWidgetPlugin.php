@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CustomGento\RemoveProductComparison\Plugin;
+namespace CustomGento\RemoveViewedProducts\Plugin;
 
 class RemoveViewedWidgetPlugin
 {

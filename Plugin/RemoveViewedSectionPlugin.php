@@ -8,6 +8,9 @@ use Magento\Customer\CustomerData\SectionPoolInterface;
 
 class RemoveViewedSectionPlugin
 {
+    /**
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+     */
     public function afterGetSectionsData(SectionPoolInterface $sectionPool, array $result): array
     {
         unset($result['recently_viewed_product']);

@@ -6,6 +6,10 @@ namespace CustomGento\RemoveViewedProducts\Plugin;
 
 class RemoveViewedWidgetPlugin
 {
+    /**
+     *
+     * @return string
+     */
     public function afterRenderApp(): string
     {
         return '';

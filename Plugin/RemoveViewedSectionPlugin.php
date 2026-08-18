@@ -9,6 +9,10 @@ use Magento\Customer\CustomerData\SectionPoolInterface;
 class RemoveViewedSectionPlugin
 {
     /**
+     *
+     * @param SectionPoolInterface $sectionPool
+     * @param array<string,mixed> $result
+     * @return array<string,mixed>
      * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function afterGetSectionsData(SectionPoolInterface $sectionPool, array $result): array
